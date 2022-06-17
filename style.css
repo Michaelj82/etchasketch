@@ -27,8 +27,8 @@ body{
 #board{
     display: grid;
     grid-template-columns: repeat(16, 1fr);
-    width: 50vw;
-    height: 50vw;
+    width: 35vw;
+    height: 35vw;
 
 
     border: solid;
@@ -51,11 +51,9 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
 
     color: white;
-    font-size: 2vw;
+    font-size: 3vw;
     text-align: center;
 
 }
@@ -64,6 +62,14 @@ body{
     border: solid;
     border-color: red;
     border-width: 10px;
+
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+
+
+
     background-color: white;
     padding: 2%;
     text-align: center;
